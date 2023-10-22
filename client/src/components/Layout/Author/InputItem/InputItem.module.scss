@@ -1,0 +1,62 @@
+.label {
+  padding-left: 5px;
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.input {
+  margin-top: 7px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  padding: 19px 17px;
+  background: #fff;
+}
+
+.input-text {
+  outline: none;
+  border: none;
+  font-size: 1.6rem;
+  width: 100%;
+  // padding-right: 33px;
+
+  &::placeholder {
+    color: #a9a9a9;
+    font-weight: 400;
+  }
+}
+
+.input-type {
+  position: relative;
+}
+
+.input-list {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-48%);
+}
+
+.input-icon {
+}
+
+.input-show.active {
+  display: block;
+}
+
+.input-show {
+  display: none;
+}
+
+.input-hidden {
+  display: none;
+}
+
+.input-hidden.active {
+  display: block;
+}
+
+// Option
+.option {
+  width: 100%;
+}

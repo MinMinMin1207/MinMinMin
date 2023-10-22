@@ -1,0 +1,68 @@
+.header {
+  padding-top: 23px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav-item {
+    display: inline-flex;
+    align-items: center;
+
+    .nav-title {
+      color: var(--black);
+      font-size: 1.8rem;
+      font-weight: 500;
+      margin-right: 6px;
+      user-select: none;
+    }
+
+    .nav-icon {
+      font-size: 1.5rem;
+      margin-right: 5px;
+    }
+  }
+
+  .nav-right {
+    display: inline-flex;
+    align-items: center;
+    gap: 30px;
+  }
+}
+
+// Logo
+.logo {
+  width: 62px;
+  height: 62px;
+  object-fit: cover;
+}
+
+// Button
+.button {
+  padding: 15px 40px;
+  background: orange;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+
+  .login {
+    color: #000;
+  }
+  .button-title {
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.link-to {
+  color: #000;
+}

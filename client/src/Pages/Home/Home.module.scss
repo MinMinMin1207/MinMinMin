@@ -1,0 +1,404 @@
+// Header ============
+
+.header {
+}
+
+// header-top
+.header-top {
+  position: relative;
+  background-color: var(--header-home-bg);
+  padding-bottom: 100px;
+  max-height: 453px;
+}
+
+// Hero
+.hero {
+  margin-top: 40px;
+}
+
+.hero-action {
+  margin-top: 27px;
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+.hero-title {
+  width: 554px;
+  color: #d8b4f8;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero-action .action.black {
+  background-color: var(--black);
+}
+
+.hero-action .action .title.white {
+  color: var(--white);
+}
+
+/* Hero right */
+.hero-right {
+}
+
+.heroImg {
+  position: absolute;
+  bottom: 0;
+}
+
+// Images hero
+
+.hero-cat {
+  width: 332px;
+  height: 305px;
+  right: 340px;
+  bottom: -48px;
+  z-index: 2;
+}
+
+.hero-dog {
+  width: 500px;
+  height: 500px;
+  right: 0;
+  z-index: 1;
+}
+
+// Button-hero
+.button-hero {
+  padding: 15px 40px;
+  background-color: #ffc7ea;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+
+  .button-title {
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.button-black {
+  background-color: var(--black);
+  color: #fff !important;
+}
+
+/* Header bottom ============ */
+.header-bottom {
+  margin-top: 22px;
+}
+
+.header-bottom .heading {
+  width: 301px;
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.header-bottom .reviews {
+  margin-top: 13px;
+  width: max-content;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 18px;
+  background-color: #f8f3f3;
+  border-radius: 50px;
+}
+
+// Happy pets ============
+.happy-pets {
+  margin-top: 50px;
+  padding: 10px 50px 0 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  .left {
+    width: 332px;
+    height: 493px;
+    flex-shrink: 0;
+    border-radius: 182px;
+    background: var(--header-home-bg);
+  }
+
+  .right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .slogan {
+      font-size: 2.6rem;
+      position: relative;
+    }
+
+    .heading {
+      text-align: center;
+      width: 519px;
+      font-size: 8rem;
+      font-style: normal;
+      font-weight: 600;
+    }
+
+    .desc {
+      margin-top: 11px;
+      font-size: 1.4rem;
+      width: 407px;
+    }
+  }
+
+  .action {
+    position: absolute;
+    bottom: -50px;
+    color: #000;
+    font-size: 1.8rem;
+    border-bottom: 1px solid #000;
+  }
+}
+
+// Service ==========
+.service {
+  margin-top: 68px;
+}
+
+.service-top {
+  display: flex;
+  justify-content: center;
+}
+
+.service-title {
+  display: inline-block;
+  position: relative;
+
+  .img {
+    position: absolute;
+    top: -55px;
+    left: -50px;
+    width: 113px;
+    height: 113px;
+    z-index: -1;
+  }
+
+  .heading {
+    font-size: 5.6rem;
+    font-weight: 600;
+  }
+}
+
+.service-body {
+  margin-top: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service-item {
+  text-align: center;
+
+  .service-box {
+    border-radius: 41px;
+    background: #d9d9d9;
+    padding: 21px;
+    transition: all 0.3s ease-out;
+
+    &:hover {
+      background-color: #ffd100;
+    }
+  }
+
+  .service-icon {
+    width: 75px;
+    height: 75px;
+    transition: all 0.3s ease-out;
+
+    &:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  }
+
+  .service-name {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}
+
+// Reason ==========
+.reason {
+  margin-top: 50px;
+  padding-top: 52px;
+  padding-bottom: 126px;
+  position: relative;
+  overflow: hidden;
+}
+
+.reason-img {
+  position: absolute;
+
+  width: 512px;
+  height: 512px;
+  object-fit: cover;
+  top: 151px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.reason-heading {
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.reason-body {
+  margin-top: 73px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px 86px;
+}
+
+.reason-left,
+.reason-right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 27px;
+}
+
+.reason-item {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+}
+
+.reason-content {
+  width: 329px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+}
+
+.reason-icon {
+  width: 37px;
+  height: 37px;
+  object-fit: cover;
+}
+
+.reason-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.reason-desc {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+// Clients say ===========
+.clients-say {
+  margin-top: 80px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.client-heading {
+  text-align: center;
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+.client-body {
+  margin-top: 30px;
+}
+
+.client-box {
+  width: 100%;
+  height: 470px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  background: #f5f5f5;
+  box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.3);
+}
+
+.client-img {
+  width: 319px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.client-content {
+  width: 419px;
+}
+
+.client-title {
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.client-desc {
+  margin-top: 10px;
+  color: #000;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.client-footer {
+  margin-top: 44px;
+  display: flex;
+  align-items: center;
+  gap: 44px;
+
+  .reviews {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 16px;
+    background-color: #e7e7e7;
+    border-radius: 50px;
+
+    .logo {
+      width: 17px;
+      height: 17px;
+      object-fit: cover;
+    }
+  }
+}
+
+.clients-say {
+  position: relative;
+  .arrow {
+    display: inline-block;
+    padding: 16px;
+    border-radius: 17px;
+    border: 1px solid #dbdbdb;
+    background: #fff;
+    transition: all 0.2s ease;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .arrow-left {
+    position: absolute;
+    top: 50%;
+    right: -2%;
+  }
+  .arrow-right {
+    position: absolute;
+    top: 50%;
+    left: -2%;
+  }
+}
